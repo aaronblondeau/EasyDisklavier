@@ -1,0 +1,24 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.row {
+	display: flex;
+	justify-content: center;
+	flex-grow: 1;
+}
+.cell {
+	flex-grow: 1;
+	flex-basis: 0;
+	display: flex;
+}
+.cell button {
+	flex-grow: 1;
+}
